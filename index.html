@@ -1,1 +1,265 @@
+<!DOCTYPE html>
+<html>
 
+<head>
+  <meta charset="utf-8">
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Tangerine">
+  <script src="https://use.fontawesome.com/d1341f9b7a.js"></script>
+  <link rel="apple-touch-icon" sizes="57x57" href="onepage-images/apple-icon-57x57.png">
+  <link rel="apple-touch-icon" sizes="60x60" href="onepage-images/apple-icon-60x60.png">
+  <link rel="apple-touch-icon" sizes="72x72" href="onepage-images/apple-icon-72x72.png">
+  <link rel="apple-touch-icon" sizes="76x76" href="onepage-images/apple-icon-76x76.png">
+  <link rel="apple-touch-icon" sizes="114x114" href="onepage-images/apple-icon-114x114.png">
+  <link rel="apple-touch-icon" sizes="120x120" href="onepage-images/apple-icon-120x120.png">
+  <link rel="apple-touch-icon" sizes="144x144" href="onepage-images/apple-icon-144x144.png">
+  <link rel="apple-touch-icon" sizes="152x152" href="onepage-images/apple-icon-152x152.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="onepage-images/apple-icon-180x180.png">
+  <link rel="icon" type="image/png" sizes="192x192" href="onepage-images/android-icon-192x192.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="onepage-images/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="96x96" href="onepage-images/favicon-96x96.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="onepage-images/favicon-16x16.png">
+  <link rel="manifest" href="onepage-images/manifest.json">
+  <meta name="msapplication-TileColor" content="green">
+  <meta name="msapplication-TileImage" content="onepage-images/ms-icon-144x144.png">
+  <meta name="theme-color" content="yellow">
+  <title>Base design is ugly</title>
+</head>
+
+<body>
+  <!-- I will try to use 3 divs for the general position and manage the extra with containers -->
+  <div class="container">
+    <header>
+      <div class="hcontainer">
+        <div class="hleft">
+          <img src="onepage-images/onepager03-logo.svg" alt="Ok">
+          <p><strong>Features</strong></p>
+          <p><strong>Pricing</strong></p>
+          <select name="More" id="1">
+            <option value="what">What</option>
+            <option value="has">has</option>
+            <option value="my">my</option>
+            <option value="life">life</option>
+            <option value="come">come</option>
+            <option value="to">to</option>
+          </select>
+        </div>
+        <div class="hright">
+          <p>Help & Support</p>
+          <p>Blog</p>
+          <p>Resources</p>
+          <span class="try">Try it Free</span>
+          <span class="sign">Sign in</span>
+        </div>
+        <div class="htitle">
+          <h1>Powerful, yet simple project management tool</h1>
+        </div>
+      </div>
+    </header>
+    <!-- One container and 4 divs, I think I'll use a border left-right for the 2nd div -->
+    <section>
+      <div class="s1container">
+        <div class="s1b">
+          <img src="onepage-images/onepager03-task-management.svg" alt="k">
+          <h3>task Management</h3>
+          <p>Stay organized with an advanced to-do list and track your project.</p>
+        </div>
+        <div class="s1b2">
+          <img src="onepage-images/onepager03-team-collaboration.svg" alt="k">
+          <h3>Team Collaboration</h3>
+          <p>Efficiently work together with your team to deliver top-notch results.</p>
+        </div>
+        <div class="s1b3">
+          <img src="onepage-images/onepager03-time-tracking.svg" alt="k">
+          <h3>Time Tracking</h3>
+          <p>Track every minutes of your work and bill clients accordingly.</p>
+        </div>
+        <div class="s1b">
+          <img src="onepage-images/onepager03-invoicing.svg" alt="k">
+          <h3>Invoicing</h3>
+          <p>Easily issue invoices for your work, save time and get paid.</p>
+        </div>
+      </div>
+    </section>
+    <!-- I'll use 3 divs because I'm lazy and scared -->
+    <section>
+      <div class="s3container">
+        <div class="s3text1">
+            <p><strong>Active Collab helps your team stay organized when you outgrow email.
+              But it's so much more than that - with plenty of neat add-ons,
+              it's a one-stop solution for all business needs.</strong></p>
+        </div>
+        <div class="s3text2">
+            <span>Try it free for 30 days!</span>
+        </div>
+        <div class="s3text3">
+            <p>No credit card recquired, unsubscribe at any time.</p>
+        </div>
+      </div>
+    </section>
+    <!-- it looks like a there's a background image beside the image, not sure how I'll proceed -->
+    <section>
+      <div class="s4container">
+        <img src="onepage-images/onepager03-printscreen.png" alt="k">
+      </div>
+    </section>
+    <!-- I'll use a section and a single div just for this title because I'm lazy -->
+    <section>
+      <div class="s5container">
+        <h2><strong>On our cloud or your server</strong></h2>
+        <p>
+          <strong>
+          Active Collab runs in the cloud like most browser apps today,
+          but you can also install it on your own server. Try it free for 30 days
+          and then decide what works best for you.
+          </strong>
+        </p>
+      </div>
+    </section>
+    <!-- 1 container, 2 divs and one will have a border left/right -->
+    <section>
+      <div class="s6container">
+        <div class="s6b1">
+          <img src="onepage-images/onepager03-monthly-plan.svg" alt="k">
+          <h3>Monthly Plans</h3>
+          <p><strong>In the cloud</strong></p>
+          <p><strong>No setup recquired</strong></p>
+          <p><strong>Ready in 2 minutes</strong></p>
+          <span class="s6c1">Plans & Pricing</span>
+          <p><strong><i>from $25 / month</i></strong></p>
+        </div>
+        <div class="s6b2">
+          <img src="onepage-images/onepager03-self-hosted.svg" alt="k">
+          <h3>Self-Hosted</h3>
+          <p><strong>Installs on your own server</strong></p>
+          <p><strong>Unlimited team members</strong></p>
+          <p><strong>One year of support included</strong></p>
+          <span class="s6c2">Self-Hosted Pricing</span>
+          <p><strong><i>one time fee - from $999</i></strong></p>
+        </div>
+      </div>
+    </section>
+    <!--1 container, 1 div for the text and 1 for the images -->
+    <section>
+      <div class="s7container">
+        <div class="s7text1">
+          <h2><strong>Who's using Active Collab?</strong></h2>
+          <p>
+            <strong>For more than 10 years, we've been trusted by over 200,000 people
+                      in companies ranging from small businesses to Fortune 500 members,
+                      universities and government institutions.
+            </strong>
+          </p>
+        </div>
+        <div class="s7text2">
+          <img src="onepage-images/onepager03-logo-customer.svg" alt="">
+        </div>
+      </div>
+    </section>
+    <!-- 1 container and 3 divs, one of them being another container for the fields -->
+    <section>
+      <div class="s8container">
+        <div class="s8text1">
+          <h1>Get started with Active Collab</h1>
+          <p>Enter you details to get a month of Active Collab absolutely free, without any limitations.</p>
+        </div>
+        <div class="s8fields">
+          <div class="s8b1">
+            <h5><strong>Your name or organization</strong></h5>
+            <input type="Enter name or organization" name="1" value="1">
+          </div>
+          <div class="s8b2">
+            <h5><strong>Email</strong></h5>
+            <input type="name@organization.com" name="2" value="2">
+          </div>
+          <div class="Password">
+            <h5><strong>Password</strong></h5>
+            <input type="The longer, the stronger" name="3" value="3">
+          </div>
+        </div>
+        <div class="s8text2">
+          <p>Your data is safe with us.</p>
+          <a href="http://grrcon.com/wp-content/uploads/2014/04/NinjaSloth.jpg">Active Collab security</a>
+        </div>
+      </div>
+    </section>
+    <!-- 1 container and 3 divs, I might need another container to make sure things are properly aligned in rows and columns -->
+    <footer>
+      <div class="fcontainer">
+        <div class="fmenu">
+          <div class="menu">
+            <h6>Product</h6>
+            <p>Features</p>
+            <p>All Features</p>
+            <p>Pricing</p>
+            <p>Add-Ons</p>
+            <p>Headmap</p>
+            <p>Timer</p>
+            <p>Mobile Apps</p>
+          </div>
+          <div class="menu">
+            <h6>Alternative</h6>
+            <p>Best Project Management Tools Comparison</p>
+            <p>Basecamp Alternative</p>
+            <p>Trello Alternative</p>
+            <p>Asana ALternative</p>
+            <p>Teamwork Alternative</p>
+            <p>Wrike Alternative</p>
+            <p>JIRA Alternative</p>
+            <p>MIS Project Alternative</p>
+          </div>
+          <div class="menu">
+            <h6>Solution</h6>
+            <p>Self-Hosted Project Management</p>
+            <p>Task Management</p>
+            <p>Project Management</p>
+            <p>Team Collaboration</p>
+            <p>Team Management</p>
+            <p>Client Management</p>
+            <p>Time Tracking</p>
+            <p>Invoicing</p>
+          </div>
+          <div class="menu">
+            <h6>For Teams</h6>
+            <p>Marketing</p>
+            <p>Designers</p>
+            <p>Web Design</p>
+            <p>Web Development</p>
+            <p>Startups</p>
+            <p>SEO Agencies</p>
+            <p>Small Business</p>
+          </div>
+          <div class="menu">
+            <h6>Company</h6>
+            <p>About & Contact</p>
+            <p>Carrers</p>
+            <p>Privacy Policy</p>
+            <p>Terms of Service</p>
+            <p>Security</p>
+          </div>
+          <div class="menu">
+            <h6>Ressources</h6>
+            <p>Project Managmeent Guides</p>
+            <p>Blog</p>
+            <p>Newsletter</p>
+            <p>Help & Support</p>
+          </div>
+        </div>
+        <div class="icones">
+          <i class="fa fa-facebook fa-3x" aria-hidden="true"></i>
+          <i class="fa fa-twitter fa-3x" aria-hidden="true"></i>
+          <i class="fa fa-instagram fa-3x" aria-hidden="true"></i>
+          <i class="fa fa-linkedin fa-3x" aria-hidden="true"></i>
+          <i class="fa fa-medium fa-3x" aria-hidden="true"></i>
+        </div>
+        <div class="ftext">
+          <p>Happy collaborating!</p>
+          <p>© 2007-2017 Active Collab</p>
+        </div>
+
+      </div>
+    </footer>
+  </div>
+</body>
+
+</html>
